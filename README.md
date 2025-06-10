@@ -28,7 +28,7 @@ La mayoría de los scripts requieren:
 
 ## 📜 Licencia
 
-Este proyecto está bajo la **Licencia MIT**.  
+Este proyecto está bajo la **Licencia GNU 3**.  
 Puedes usar, modificar y distribuir estos scripts libremente, incluso en entornos comerciales, siempre que se mantenga el aviso de licencia y copyright.
 
 > Para más información, consulta el archivo [`LICENSE`](LICENSE).
