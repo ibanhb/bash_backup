@@ -61,5 +61,5 @@ Para ejecutar el script una vez al mes (por ejemplo, el día 1 a las 2:00 AM), s
 ### 1. Copia el script a `/usr/local/bin`
 
 ```bash
-sudo cp actualizar_fedora_con_repos.sh /usr/local/bin/
-sudo chmod +x /usr/local/bin/actualizar_fedora_con_repos.sh
+sudo cp actualizar_fedora.sh /usr/local/bin/
+sudo chmod +x /usr/local/bin/actualizar_fedora.sh
