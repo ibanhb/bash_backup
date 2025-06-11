@@ -22,9 +22,11 @@ El propósito del script es mantener tu Raspberry Pi actualizada automáticament
 - `cron` instalado (viene por defecto en la mayoría de las imágenes de RPi OS).
 
 ## 📁 Estructura del Repositorio
-- ├── actualizar_paquetes.sh # El script principal
-- ├── logs/ # Carpeta donde se guardan los registros de ejecución
-- └── README.md # Este archivo
+```
+ ├── actualizar_paquetes.sh # El script principal
+ ├── logs/ # Carpeta donde se guardan los registros de ejecución
+ └── README.md # Este archivo
+```
 
 ## ⏰ Programación con Cron
 
