@@ -15,17 +15,27 @@ El script se encarga de revisar, instalar o actualizar los siguientes paquetes:
 
 | Paquete              | Descripción                             |
 |---------------------|-----------------------------------------|
+| `mate-desktop-environment` | Entorno de escritorio MATE       |
+| `openssh-server`     | Servidor SSH                           |
+| `emacs`             | Editor de texto GNU Emacs               |
+| `vlc`               | Reproductor multimedia                  |
+| `texlive-scheme-full` | Suite completa de herramientas LaTeX |
+| `kile`              | Editor LaTeX                            |
+| `texstudio`         | Editor LaTeX avanzado                   |
+| `qgis`              | Sistema de Información Geográfica       |
+| `gcc-gfortran`      | Compilador Fortran                      |
+| `unrar`             | Herramienta para descomprimir archivos RAR |
+| `p7zip`             | Compresor 7-Zip                         |
+| `p7zip-plugins`     | Plugins adicionales para 7-Zip          |
 | `gnuplot`           | Herramienta para graficación científica |
 | `geogebra`          | Software matemático interactivo         |
 | `firefox`           | Navegador web                           |
 | `google-chrome-stable` | Navegador Google Chrome              |
-| `gcc-gfortran`      | Compilador Fortran                      |
-| `libomp`            | Soporte para OpenMP                     |
-| `python3`           | Entorno de programación Python 3        |
-| `pspp`              | Alternativa a SPSS para análisis estadístico |
 | `libreoffice`       | Suite ofimática libre                   |
 | `okular`            | Visor universal de documentos           |
+| `pspp`              | Alternativa a SPSS para análisis estadístico |
 
+> Nota: Algunos paquetes re
 > Nota: Algunos paquetes requieren repositorios adicionales como **RPM Fusion** y **Google Chrome**. El script verifica e instala dichos repos si no están presentes.
 
 ---

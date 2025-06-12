@@ -74,16 +74,25 @@ dnf upgrade -y
 # --- INSTALACIÓN O ACTUALIZACIÓN DE PAQUETES ESPECÍFICOS ---
 
 PAQUETES=(
-    gnuplot
-    geogebra
-    firefox
-    google-chrome-stable
-    gcc-gfortran
-    libomp
-    python3
-    pspp
-    libreoffice
-    okular
+    mate-desktop-environment         # Escritorio MATE
+    openssh-server                   # Servidor OpenSSH
+    emacs                            # Editor Emacs
+    vlc                              # Reproductor VLC
+    texlive-scheme-full              # TeX Live Full
+    kile                             # Editor LaTeX Kile
+    texstudio                        # Editor LaTeX TeXStudio
+    qgis                             # Sistema de Información Geográfica
+    gcc-gfortran                     # GFortran
+    unrar                            # Soporte RAR
+    p7zip                            # Compresor 7-Zip
+    p7zip-plugins                    # Plugins adicionales para 7-Zip
+    gnuplot                          # Graficación científica
+    geogebra                         # Software matemático interactivo
+    firefox                          # Navegador web
+    google-chrome-stable             # Google Chrome
+    libreoffice                      # Suite ofimática
+    okular                           # Visor universal de documentos
+    pspp                             # Análisis estadístico
 )
 
 for paquete in "${PAQUETES[@]}"; do
@@ -95,6 +104,7 @@ for paquete in "${PAQUETES[@]}"; do
         dnf install -y "$paquete"
     fi
 done
+
 
 # --- COMPROBAR SI SE NECESITA REINICIAR ---
 
